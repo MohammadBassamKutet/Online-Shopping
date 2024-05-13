@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "img" :"mshirt1",
+        "ProductName": "Shirt",
+        "price":"10"
+    },
+    {
+        "id": 2,
+        "img" :"mshirt2",
+        "ProductName": "Shirt",
+        "price":"20"
+    },
+    {
+        "id": 3,
+        "img" :"mshirt3",
+        "ProductName": "Shirt",
+        "price":"30"
+    },
+    {
+        "id": 4,
+        "img": "mshoes1",
+        "ProductName": "Shoes",
+        "price":"10"
+    },
+    {
+        "id": 5,
+        "img": "mshoes2",
+        "ProductName": "Shoes",
+        "price":"20"
+    },
+    {
+        "id": 6,
+        "img": "mshoes3",
+        "ProductName": "Shoes",
+        "price":"30"
+    },
+    {
+        "id": 7,
+        "img": "mpant1",
+        "ProductName": "Pants",
+        "price":"10"
+    },
+    {
+        "id": 8,
+        "img": "mpant2",
+        "ProductName": "Pants",
+        "price":"20"
+    },
+    {
+        "id": 9,
+        "img": "mpant3",
+        "ProductName": "Pants",
+        "price":"30"
+    }
+]

@@ -1,0 +1,163 @@
+/* style for index.html */
+
+@media(max-width: 800px) {
+    .sec1 img {
+        height: calc(100vh - 300px) !important;
+    }
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* style for login.html */
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #1c1c1c;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.login-box form h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.login-box form .input-box1,
+.login-box form .input-box2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.login-box form .input-box1 label,
+.login-box form .input-box2 label {
+    font-size: 21px;
+    color: gray;
+}
+.login-box form .input-box1 input,
+.login-box form .input-box2 input {
+    background-color: #1c1c1c;
+    border-color: transparent transparent black transparent;
+    outline: none;
+}
+
+.login-box form .input-box1 input:focus,
+.login-box form .input-box1 input:valid,
+.login-box form .input-box2 input:focus,
+.login-box form .input-box2 input:valid {
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+
+.login-box form .links-box1 {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+}
+.login-box form .links-box1 a {
+    text-decoration: none;
+    color: white;
+    border-radius: 10%;
+    padding: 3px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+.login-box form .links-box2 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+.login-box form .links-box2 a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    border-radius: 30%;
+    padding: 7px;
+    font-size: 30px;
+    border: none;
+    outline: none;
+}
+
+/* ------------------------------------------------------------------------ */
+
+/* style for singup.html */
+
+.singup-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #1c1c1c;
+    width: 500px;
+    padding: 20px;
+    border-radius: 20px;
+}
+.singup-box form h2 {
+    text-align: center;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 30px;
+}
+.singup-box form .input-box1,
+.singup-box form .input-box2,
+.singup-box form .input-box3,
+.singup-box form .input-box4 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+.singup-box form .input-box1 label,
+.singup-box form .input-box2 label,
+.singup-box form .input-box3 label,
+.singup-box form .input-box4 label {
+    font-size: 21px;
+    color: gray;
+}
+.singup-box form .input-box1 input,
+.singup-box form .input-box2 input,
+.singup-box form .input-box3 input,
+.singup-box form .input-box4 input {
+    background-color: #1c1c1c;
+    border-color: transparent transparent black transparent;
+    outline: none;
+}
+
+.singup-box form .input-box1 input:focus,
+.singup-box form .input-box1 input:valid,
+.singup-box form .input-box2 input:focus,
+.singup-box form .input-box2 input:valid,
+.singup-box form .input-box3 input:focus,
+.singup-box form .input-box3 input:valid,
+.singup-box form .input-box4 input:focus,
+.singup-box form .input-box4 input:valid {
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    transition: 0.6s;
+    border-radius: 30px;
+}
+.singup-box form .links-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.singup-box form .links-box a {
+    text-decoration: none;
+    background-color: gray;
+    color: white;
+    border-radius: 30%;
+    padding: 7px;
+    font-size: 24px;
+    border: none;
+    outline: none;
+}
+/* -------------------------------------------------------------------------------- */
